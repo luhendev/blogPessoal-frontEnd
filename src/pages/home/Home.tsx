@@ -1,31 +1,17 @@
 function Home() {
     return (
         <>
-            <div style={{
-                width: "100vw",
-                display: "flex",
-                justifyContent: "center"
-            }}>
+            <div className="w-screen flex justify-center">
                 <div>
-                    <div style={{
-                         width: "80vw",
-                         display: "flex",
-                         flexDirection: "column",
-                         alignItems: "center"
-                    }}>
-                        <h2>Seja Bem Vinde!</h2>
-                        <p>Expresse aqui seus pensamentos e opiniões</p>
+                    <div className="max-w-7xl flex flex-col items-center">
+                        <h2>Seja bem-vindo(a)!</h2>
+                        <p>Expresse aqui seus pensamentos e opiniões.</p>
                     </div>
 
-                    <div style={{
-                         width: "80vw",
-                         display: "flex",
-                         flexDirection: "column",
-                         alignItems: "center"
-                    }}>
-                        <img 
-                            src="https://i.imgur.com/VpwApCU.png" 
-                            alt="Imagem da Página Home" 
+                    <div className="max-w-7xl flex flex-col items-center">
+                        <img
+                            src="https://i.imgur.com/VpwApCU.png"
+                            alt="Imagem da Página Home"
                             width="400px"
                         />
                     </div>
